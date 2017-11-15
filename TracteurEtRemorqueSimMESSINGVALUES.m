@@ -1,12 +1,12 @@
 clc;clear;
 
-k=25000;    %constante du ressort [N/m]
-b=30000;    %constante d'amortisseur [N/ms]
-mT=8000;    %masse du tracteur [kg]
-%you should take this:
+k=40000;    %constante du ressort [N/m]         40000
+b=30000;    %constante d'amortisseur [N/ms]     30000
+mT=9000;    %masse du tracteur [kg]
+%you should take this: 9000
 %http://www.tractorspecs.com/specs/JohnDeere/6120.aspx
-mR=12000;   %masse du remorque [kg]
-%you should take this:
+mR=30000;   %masse du remorque [kg]
+%you should take this: 30000
 %http://manuals.deere.com/omview/OMH226957_19/OUO6075_0000375_19_24APR06_1.htm 
 T = 10000;  %torque applique [N/m]
 r = 0; %rayon du roue [m]
