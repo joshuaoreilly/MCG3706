@@ -1,6 +1,6 @@
 clc;clear;
 
-k=120000;    %constante du ressort [N/m]         40000
+k=260000;    %constante de 2 ressorts [N/m]         40000
 b=37000;    %constante d'amortisseur [N/ms]     30000
 mT=9000;    %masse du tracteur [kg]
 %you should take this: 9000
