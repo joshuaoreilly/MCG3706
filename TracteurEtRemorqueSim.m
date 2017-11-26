@@ -19,7 +19,7 @@ t=0:0.05:50;
 
 u = T*heaviside(t)-2*T*heaviside(t-25);
 z=lsim(A,B,C,D,u,t);
-plot(t,z+0.2)
+plot(t,z+0.2032)
 title('Systeme bien amortis')
 xlabel('temps (s)')
 ylabel('distance (m)')
